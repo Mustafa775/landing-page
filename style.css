@@ -1,0 +1,40 @@
+body,html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+#body{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  align-content: space-between;
+  /* the following two properties will make any bg image responsive in on any screen + dont forget to use the meta tag that makes your website responsive */
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.capital{
+  text-transform: capitalize;
+  color: #e2dbdb;
+}
+.btn-danger{
+  background-color: #ed4427;
+  border-color: #ed4427;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+}
+.btn-danger:hover{
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 3px;
+}
+#object{
+  display: flex;
+  justify-content: center;
+}
+#line{
+  position: relative;
+  height: 2px;
+  width: 50px;
+  background-color: rgb(238, 95, 59);
+  border-radius: 50px;
+}
